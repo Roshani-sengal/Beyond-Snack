@@ -1,0 +1,491 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* first navbar style for Homepage */
+#main {
+    height: 100%;
+    width: 100%;
+    position:sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+.navbar{
+    line-height: 80px;
+    border-bottom: 2px solid rgb(80, 78, 76);
+    background-color: white;
+}
+
+img{
+    float: left;
+    width: 5%;
+    margin-top: 2px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(67, 66, 65);
+}
+
+ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+    margin-right: 367px;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 30px;
+    color: rgb(84, 81, 78);
+}
+
+a:hover {
+    border-bottom: 2px solid rgb(65, 64, 66);
+    text-decoration: none;
+}
+
+.navbar span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* second  image cade for homepage*/
+#second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#second .cade {
+    margin: 10px 20px;
+}
+
+#second .cade img {
+    height: 150px;
+    width: 150px;
+   
+}
+
+#second .cade p {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(84, 81, 78);
+}
+
+/* third setion image */
+#third img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+#third .text {
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    
+    
+}
+
+#third  a{
+    color: rgb(10, 178, 10);
+    border: none;
+}
+
+.image_cade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whole_image{
+    display: inline;
+    width: 200px;
+    margin: 20px;
+    text-align: left;
+    color: rgb(84, 81, 78);
+    font-size: 16px;
+}
+
+.whole_image p {
+    padding: 10px;
+}
+
+.outer{
+    width: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.outer img{
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 5.0s ease;
+    margin: 10px;
+}
+
+.outer_1:hover {
+    content: url('./icss//home_cade_b_1.webp');
+    border-radius: 10px;
+}
+
+.outer_2:hover {
+    content: url('./icss/home_cade_b_2.webp');
+    border-radius: 10px;
+}
+
+.outer_3:hover {
+    content: url('./icss/home_cade_b_3.webp');
+    border-radius: 10px;
+}
+
+.outer_4:hover {
+    content: url('./icss/home_cade_b_4.webp');
+    border-radius: 10px;
+}
+
+.whole_image .rupee{
+        text-decoration:line-through;
+        display: inline;  
+}
+
+.button{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.whole_image a,#fore a{
+    color: rgb(15, 13, 13);
+    padding: 5px;
+    background-color: rgb(19, 117, 6);
+    border: none; 
+}
+
+/* fore section cade */
+#fore{
+    position: relative;
+    
+}
+
+#fore .text,#five .text ,#six .text{
+   color: rgb(10, 178, 10);
+   font-size: 40px;
+   font-weight: 900;
+   text-align: center;
+   margin: 30px;
+
+   
+}
+
+#fore .in_cade,#five .text,#six .text{
+    height: 100%;
+    width: 100%; 
+}
+
+#fore .in_cade img,#five .in_cade img{
+    width: 70%;
+    height: 100%; 
+    float: none;  
+}
+
+#fore .image_cade,#five .image_cade{
+    width: 250px;
+    background-color: white;
+    border: 2px solid rgb(218, 209, 194);
+    border-radius: 10px; 
+}
+
+.p_1{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+}
+
+.inner_1:hover{
+    content: url('./icss//home_cade_b_3.webp');
+    border-radius: 10px;    
+}
+
+.p_2{
+    position:absolute;
+    top:90px;
+    left: 600px;
+}
+
+.inner_2:hover{
+    content: url('./icss//home_cade_b_2.webp');
+    border-radius: 10px;    
+}
+
+.p_3{
+    position:absolute;
+    top:90px;
+    left: 900px;
+}
+
+.inner_3:hover{
+    content: url('./icss//home_cade_b_1.webp');
+     border-radius: 10px;    
+}
+
+.p_4{
+    position:absolute;
+    top:90px;
+    left: 1200px;
+}
+
+.inner_4:hover{
+    content: url('./icss//home_cade_b_4.webp');
+    border-radius: 10px;    
+}
+
+/* five section  */
+#five{
+    position: relative;
+}
+
+.secondcade_p_1{
+    position: absolute;
+    top:90px;
+    left: 811px;
+}
+
+.secondcade_p_2{
+    position: absolute;
+    top:90px;
+    left: 1100px;
+}
+
+.inner_b_1:hover{
+    content: url('./icss/banana_chip_b_1.webp');
+     border-radius: 10px;    
+}
+
+.inner_b_2:hover{
+    content: url('./icss/banana_chip_b_2.webp');
+     border-radius: 10px;    
+}
+
+/* six section */
+#six .s_image,.logo_company{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#six .s_image img{
+    width: 90vw;
+    height: 90vh;
+    margin-top: 65px;
+    border-radius: 10px;
+}
+
+#six .logo_company .l{
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 40px;
+    margin-top: 0px;
+}
+
+#six .tester img{
+    width: 98vw;
+    height: 100vh;
+    object-fit:fill;
+    float: none;
+}
+
+#six .s1{
+    display: flex;
+}
+
+#six .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#six .box{
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(6, 116, 6);
+    margin: 20px;
+}
+
+#six .flex img{
+    width: 100px;
+    float: none;
+}
+
+/* seven section */
+#seven .s_main{
+    width: 99vw;
+    height: 270px;
+    background-color: rgb(10, 178, 10);
+    margin-top: 5px;
+    
+}
+
+#seven .s_main .title{
+    padding-top:20px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500px;
+    text-align: center;
+    color: white;
+}
+#seven .s_main .pat_main{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 20px;
+}
+
+#seven .s_main .pat1{
+    width: 250px;
+    border: 2px soild rgb(109, 85, 85);
+    color: aliceblue;
+    
+}
+
+#seven .pat1 .iron{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#seven .pat1 .name{
+    font-size: 20px;
+    text-align: center;
+}
+
+#seven .pat1 .centen{
+    padding-top: 8px;
+    text-align: center;
+}
+
+#footer{
+     background-color: black;
+       height: 550px;
+}
+
+/* footer  section*/
+#footer .f_pat{
+    background-color: black;
+    width: 99vw;
+    display: flex;
+    font-size: 18px;
+    color: white;
+    
+    
+}
+
+#footer .f_pat1{
+    width: 33vw;
+     padding: 40px;
+    
+}
+
+#footer .f_pat1 p{
+    margin-top: 15px;
+}
+
+
+
+#footer .f_pat2{
+    width: 33vw;
+    padding: 40px;
+    padding-left: 90px;
+
+}
+
+#footer .f_pat2 h3{
+    margin-left: 24px;
+}
+
+#footer .f_pat2 ul{
+    display: inline;
+   
+}
+
+#footer .f_pat2 ul li{
+     cursor: pointer;
+     color: white;
+     margin-top: 5px;
+}
+
+
+#footer .f_pat3{
+    width: 33vw;
+    padding: 40px;
+     padding-left: 90px;
+}
+
+#footer .f_pat3 p{
+    margin-top: 10px;
+}
+
+#footer .f_pat3 input{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 20px;
+    outline:none;
+    color: white;
+    font-size:15px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid white;
+    
+}
+
+#footer .f_pat3 input:hover{
+    border: 2px  solid white;
+    border-radius: 10px;
+}
+
+#footer hr{
+    border-color: rgb(45, 44, 44);
+}
+
+#footer .last{
+    text-align: center;
+    color: white;
+    font-size:20px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
